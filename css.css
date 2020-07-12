@@ -3,6 +3,7 @@
 			margin-bottom: 0px;
 			background-image: url(hinhanh/nen.jpg) ;
 			background-attachment: fixed;
+			font-family: times new roman
 			
 		}
 		header{
@@ -13,33 +14,34 @@
 		.row{
 			display: flex;
 			justify-content: space-around;
-		}
-		.buy
-		{
-			background: blue;
-			padding: : 7px 13px;
-			border:none;
-			outline: none;
-			border-radius: :5px 0 0 5px ;
-			color: white;
-			font-size: 18px;
-			font-weight: 500;
+
 
 		}
-		.shop{
-			background: red;
-			padding: : 7px 13px;
-			border:none;
-			outline: none;
-			border-radius: :0 5px 5px 0 ;
-			color: white;
-			font-size: 18px;
-			font-weight: 500;
+		.btn-header button{
+		
+			
+		width: 150px;
+		height: 40px;
+		font-size: 25px;
+		font-weight: bold;
+		color: red;
+		border-radius: 10px 10px 10px 10px;
+		margin-top: 15px;
+
 
 		}
+		.btn-header button:hover{
+		background:#FF9966;
+		color: white;
+
+		}
+
+		}
+		
 
 		.btn-header{
 			margin: 10px 0;
+			margin-top: 25px;
 
 		}
 		.menu{
@@ -47,7 +49,7 @@
 
 		}
 		.menu h3{
-			font-size: 35px;
+			font-size: 50px;
 			color: white;
 			font-weight: 500;
 			text-shadow: 1px 0 2px red;
@@ -58,55 +60,101 @@
 		h3{
 			margin-top: -20px;
 		}
-		.row-1 > a{
-			font-size: 22px;
-			color: white;
-			text-decoration: none;
-			padding: 0 15px;
-			padding-bottom: 10px
-		}
-		.nav-bg{
-			margin: 0;
-			padding: 0;
-			background: grey;
+		
 
-
-		}
+		
 		.row-nav{
 			display: flex;
 			justify-content: center;
+			width: 1350px;
+
 		}
 		.row-nav a{
+			font-family: times new roman;
 			color: white;
 			font-size: 18px;
 			letter-spacing: 1.2px;
 			text-decoration: none;	
 			padding: 0.4rem 1.6rem;
-			border-right: 2px solid red;
+			margin-top: -10px;
+
+		
+		
+
+		}
+
+		.row-nav li:hover{
+			background: green;
 		}
 		.row-nav a:hover
 		{
-			color: red;
+			
+
+		}
+		.nav-bg{
+			margin: 0;
+			padding: 0;
+			background: grey;
+			width:100%;
+			height: 50px;
+			margin-top: -20px;
+
+		}
+
+		}
+		a{text-decoration: none;
+			list-style: none;
+
+
+		}
+
+		.row-nav> ul> li{
+			
+			list-style: none;
+			padding: 5px 5px;
+			position: relative;
+			float: left;
+		}
+		.row-nav ul li a{
+			font-size: 20px;
+
+		}
+		.row-nav >ul >li >ul{
+			display: none;
+			position: absolute;
+		    background:grey;
+		    top:40px; }
+		.row-nav ul li ul li{
+			list-style: none;
+			width: 200px;
+			height: 30px;
+
+		}
+
+		.row-nav ul li ul li a{
+			height: 30px;
+			font-size: 22px;
+			margin-left: -25px;
+		}    
+		.row-nav> ul> li:hover ul{
+			display: block;}
+		.text{
+			width: 170px;
+			height: 20px;
+		}
+		.x{
+			width: 70px;
+			height: 30px;
+			border-radius: 5px;
+			font-size: 18px;
+		}
+		.x:hover{
 			background: green;
-
-		}
-		.form input{
-			padding: 7px;
-			border:none;
-			outline: none;
-			border-radius: 3px 0 0 3px;
-		}
-		.form{
-			margin-top: 2.1px;
-		}
-		.form button{
-			background: red;
 			color: white;
-			border:none;
-			outline: none;
-			border-radius:0 3px 3px 0;
-			padding: 7px;
-
+		}
+		
+		img{
+			margin-top: 2px;
 		}
 
 		#center{
@@ -129,6 +177,9 @@
 		  background: #847A67;
 		}
 		#main li {
+
+
+		  height: 40px;
 		  background: #D4CAB6; 
 		  border-top: 2px solid #F4EFDF;
 		  list-style: none;
@@ -141,7 +192,9 @@
 		#main a {
 		  text-decoration: none;
 		  color: red;
-		  font-size: 18px;
+		  font-size: 26px;
+		  font-weight: center;
+		  margin-top: 15px;
 		}
 		#main a:hover {
 		  
@@ -157,6 +210,7 @@
 			background: #ffffff;
 			width:81%;
 			float:left;
+
 		}
 		h1{
 			font-size: 45px;
@@ -174,10 +228,12 @@
 			margin-top: -10px;
 			list-style: none;
 
+
 		}
 		#phai li p{font-size: 18px;
 			color: black;
 			font-weight: bold;
+
 			}
 
 		 a{
@@ -187,6 +243,7 @@
 
 		#phai li img {
 			margin-top: 30px;
+
 		}
 
 		#phai  li img:hover{
@@ -194,3 +251,35 @@
 			height: 230px;
 			margin-top: -30px;
 		}
+
+		.footer{width:100%;
+			
+		}
+		.footer1{
+			background: black;
+			display: flex;
+			justify-content: space-around;
+			width: 100%;
+			
+
+		}
+		.footer2 h1{
+			color: white;
+			font-size: 20px;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			
+		}
+		.footer2 span{
+			color: white;
+			font-size: 20px;
+			
+		}
+		.footer2 h5{
+			color: white;
+			font-size: 25px;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			margin-top: -20px;
+			
+		}	
